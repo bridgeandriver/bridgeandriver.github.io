@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   let blogNameWidth, menusWidth, searchWidth, $nav
   let mobileSidebarOpen = false
-
   const adjustMenu = (init) => {
     if (init) {
       blogNameWidth = document.getElementById('site-name').offsetWidth
